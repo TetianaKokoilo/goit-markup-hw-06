@@ -786,11 +786,3 @@ img {
   display: block;
   margin-bottom: 10px;
 }
-.modal-subtitle {
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-
-  color: var(--primary-text-color);
-  padding-bottom: 4px;
-  }
