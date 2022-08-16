@@ -800,4 +800,18 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
+  margin-bottom: 20px;
+}
+.checkbox-field {
+  margin-bottom: 30px;
+}
+.modal-checkbox {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.checkbox-text {
+  color: rgba(33, 150, 243, 1);
+  text-decoration: underline;
 }
