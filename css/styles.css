@@ -788,6 +788,7 @@ img {
 
   margin-bottom: 10px;
   outline: none;
+  cursor: pointer;
 }
 .modal-input:focus {
   border: 1px solid var(--accent-color);
@@ -795,8 +796,8 @@ img {
 .modal-button {
   width: 200px;
   height: 50px;
-  background-color: var(--background-btn-color)
-  color: var(#ffffff)
+  background-color: var(--background-btn-color);
+  color: var(--primary-btn-color)
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -815,6 +816,7 @@ img {
   resize: none;
   margin-bottom: 20px;
   outline: none;
+  cursor: pointer;
 }
 .modal-text:focus {
   border: 1px solid var(--accent-color);
@@ -899,9 +901,72 @@ background-color: var(--accent-bnt-color);
   display: inline-block;
 
 }
-
-
 .modal-input:focus +.form-icon {
   fill: var(--accent-color);
-  border-color: var(--accent-color);
 }
+
+.subscribe-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+
+}
+.form-subscribe {
+  display: block;
+  margin-left: 93px;
+}
+.subscribe-main {
+  display: flex;
+  
+}
+.subscribe-email {
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  outline: none;
+  color: var(--main-title-color);
+  cursor: pointer;
+}
+.subscribe-email:focus {
+  border: 1px solid var(--accent-color);
+}
+.subscribe-btn {
+  margin-left: 12px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--main-title-color);
+  background-color: var(--background-btn-color);
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color var(--transition-duration) var(--transition-timing-function);
+  }
+  .subscribe-icon {
+    margin-left: 10px;
+    fill: var(--primary-btn-color);;
+  }
+
+  .subscribe-btn:hover,
+  .subscribe-btn:focus {
+    background-color: var(--accent-bnt-color);
+  }
