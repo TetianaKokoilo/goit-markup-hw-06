@@ -745,8 +745,9 @@ img {
   height: 30px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1)
-  color: transparent
 }
+
+
 .is-hidden {
   opacity: o;
   visibility: hidden;
@@ -811,12 +812,11 @@ img {
   color: rgba(33, 150, 243, 1);
   text-decoration: underline;
 }
-{
-  width: 100%;
-  height: 14px;
-  display: block;
-  margin-bottom: 4px;
+
+.checkbox {
+  background-color: var(--title-text-color);
 }
+
 .modal-form button {
   margin: 0 auto;
   width: 200px;
@@ -840,4 +840,11 @@ background-color: var(--accent-bnt-color);
 }
 .field {
   position: relative;
+}
+.form-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  display: inline-block;
+
 }
