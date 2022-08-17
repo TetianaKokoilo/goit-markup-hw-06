@@ -776,6 +776,7 @@ img {
   margin-bottom: 12px;
 }
 .modal-input {
+  display: flex;
   width: 448px;
   height: 40px;
   left: 576px;
@@ -786,8 +787,11 @@ img {
   border-radius: 4px;
 
   margin-bottom: 10px;
+  outline: none;
 }
-
+.modal-input:focus {
+  border: 1px solid var(--accent-color);
+}
 .modal-button {
   width: 200px;
   height: 50px;
@@ -810,6 +814,10 @@ img {
   border-radius: 4px;
   resize: none;
   margin-bottom: 20px;
+  outline: none;
+}
+.modal-text:focus {
+  border: 1px solid var(--accent-color);
 }
 .checkbox-field {
   display: flex;
@@ -884,13 +892,10 @@ background-color: var(--accent-bnt-color);
   position: relative;
 }
 
-.field:focus-within > .modal-input {
-  border: 1px solid var(--accent-color);
-}
 .form-icon {
   position: absolute;
   top: 50%;
-  left: 15px;
+  left: 12px;
   display: inline-block;
 
 }
@@ -898,4 +903,5 @@ background-color: var(--accent-bnt-color);
 
 .modal-input:focus +.form-icon {
   fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
