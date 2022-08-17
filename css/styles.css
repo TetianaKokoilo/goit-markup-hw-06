@@ -734,6 +734,7 @@ img {
   transition: transform var(--transition-duration) var(--transition-timing-function), visibility var(--transition-duration) var(--transition-timing-function);
 }
 .modal-close {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -744,9 +745,19 @@ img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.1)
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  
 }
-
+.modal-icon {
+  position: absolute;
+  display: inline-block;
+  transition: fill var(--transition-duration) var(--transition-timing-function);
+}
+.modal-icon:hover,
+.modal-icon:focus {
+  fill: var(--accent-color);
+}
 
 .is-hidden {
   opacity: o;
@@ -776,6 +787,7 @@ img {
 
   margin-bottom: 10px;
 }
+
 .modal-button {
   width: 200px;
   height: 50px;
