@@ -838,3 +838,6 @@ img {
 .modal-form button:focus {
 background-color: var(--accent-bnt-color);
 }
+.field {
+  position: relative;
+}
