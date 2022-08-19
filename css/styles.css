@@ -634,9 +634,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
-.footer-contacts {
-  margin-right: 70px;
-}
+
 .footer-studio {
   font-family: 'Raleway';
   font-style: normal;
@@ -676,7 +674,10 @@ img {
 .footer-item:last-child {
   margin-bottom: 0;
 }
+.join {
+  margin-left: 70px;
 
+}
 .join-title {
   display: flex;
   margin-bottom: 20px;
@@ -915,9 +916,12 @@ background-color: var(--accent-bnt-color);
   color: var(--main-title-color);
 
 }
+.subscribe {
+  margin-left: 93px;
+
+}
 .form-subscribe {
   display: block;
-  margin-left: 93px;
 }
 .subscribe-main {
   display: flex;
