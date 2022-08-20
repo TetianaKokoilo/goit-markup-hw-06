@@ -871,6 +871,7 @@ img {
   background-position: center;
   background-origin: border-box;
   vertical-align: middle;
+  cursor: pointer;
 }
 .checkbox:checked + .modal-checkbox .checkbox-icon {
   border: var(--accent-color);
