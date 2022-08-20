@@ -742,16 +742,14 @@ img {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
-
-  transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 .modal-icon {
   position: absolute;
   display: inline-block;
   transition: fill var(--transition-duration) var(--transition-timing-function);
 }
-.modal-close:hover,
-.modal-close:focus {
+.modal-icon:hover,
+.modal-icon:focus {
   fill: var(--accent-color);
 }
 
